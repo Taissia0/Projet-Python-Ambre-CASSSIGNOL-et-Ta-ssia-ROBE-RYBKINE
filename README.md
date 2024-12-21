@@ -3,7 +3,7 @@ Projet en Biomodélisation Préing 2 BTC
 
 Le fichier 'data_real.csv' a des mesures de quantités de bactéries vivantes du microbiote instestinal de souris. Certaines souris ont été traitées avec un cocktail d'antibiotique 'ABX' et d'autres ont eu un placebo.
 Le code 'Code Ambre CASSIGNOL et Taïssia ROBE-RYBKINE' est utilisé pour traiter des données du fichier 'data_real.csv'.
-Le code va ouvrir à 3 reprises le fichier 'data_real.csv' pour séparer les données des catégories 'fecal' puis 'cecal' et enfin 'ileal' afin de les répartir dans 3 fichiers 'seperateFecam.csv', 'separateCecal.csv' et 'seperateIleal.csv'.
+Le code va ouvrir à 3 reprises le fichier 'data_real.csv' pour séparer les données des catégories 'fecal' puis 'cecal' et enfin 'ileal' afin de les répartir dans 3 fichiers 'seperateFecal.csv', 'separateCecal.csv' et 'seperateIleal.csv'.
 Après avoir séparé les données, le code va ouvrir chaque fichier 'seperate' et générer un graphique illustrant les résultats de l'expérience.
 
 
