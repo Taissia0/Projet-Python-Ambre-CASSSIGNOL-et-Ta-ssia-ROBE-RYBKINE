@@ -1,7 +1,7 @@
 # Projet-Python-Ambre-CASSSIGNOL-et-Taissia-ROBE-RYBKINE
 Projet en Biomodélisation Préing 2 BTC
 
-Le fichier 'data_real.csv' a des mesures de quantités de bactéries vivantes du microbiote instestinal de souris. Certaines souris ont été traitées avec un cocktail d'antibiotique 'ABX' et d'autres ont eu un placebo.
+Le fichier 'data_real.csv' a des mesures de quantités de bactéries vivantes dans les selles de souris et dans le microbiote instestinal de souris au niveau de l'iliéon et du caecum. Certaines souris ont été traitées avec un cocktail d'antibiotique 'ABX' et d'autres ont eu un placebo.
 Ce fichier se trouve dans le dossier 'Input'.
 
 
