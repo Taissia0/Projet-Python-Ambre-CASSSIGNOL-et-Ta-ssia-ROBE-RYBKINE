@@ -128,11 +128,7 @@ yVal = []
 xVal2= []
 yVal2= []
 
-# manual filling
-#for i in range(101):
-#    xVal.append(i)
-#    yVal.append( math.cos(math.pi*i/50) )
-#    yVal2.append( math.sin(math.pi*i/50) )
+
 
 # fill data from file
 fIN = open('separateCecal.csv', 'r')
@@ -167,9 +163,7 @@ while line != '':
 
 fIN.close()
 
-# ---------------------------------------------------
-# LINE PLOT
-# ---------------------------------------------------
+
 figure, axes = plt.subplots()
 
 axes.set_title('live bacteria in Cecal')
@@ -181,9 +175,6 @@ axes.plot(xVal2, yVal2)
 
 figure.savefig('Cecal graph.png', dpi=300)
 
-# ---------------------------------------------------
-#VIOLIN PLOT
-# ---------------------------------------------------
 
 figure, axes = plt.subplots()
 
@@ -242,17 +233,11 @@ fOUT.close()
 #represent graph
 
 
-
 xVal = []
 yVal = []
 xVal2= []
 yVal2= []
 
-# manual filling
-#for i in range(101):
-#    xVal.append(i)
-#    yVal.append( math.cos(math.pi*i/50) )
-#    yVal2.append( math.sin(math.pi*i/50) )
 
 # fill data from file
 fIN = open('separationIleal.csv', 'r')
@@ -289,9 +274,7 @@ while line != '':
 
 fIN.close()
 
-# ---------------------------------------------------
-# LINE PLOT
-# ---------------------------------------------------
+
 figure, axes = plt.subplots()
 
 axes.set_title('Ileal live bacteria')
@@ -303,9 +286,6 @@ axes.plot(xVal2, yVal2)
 
 figure.savefig('Ileal graph.png', dpi=300)
 
-# ---------------------------------------------------
-#VIOLIN PLOT
-# ---------------------------------------------------
 
 figure, axes = plt.subplots()
 
