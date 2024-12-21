@@ -16,7 +16,7 @@ Ces graphiques se trouvent dans le dossier 'Images'.
 Nous n'avons pas réussi à mettre des couleurs pour bien distinguer les placebo des ABX sur les courbes des graphiques malgré l'utilisation de set_face_color ou de fonctions de matplotlib.
 La légende des graphiques est fausse de part le manque de couleur sur les graphiques. 
 Nous précisons pour le 'fecal graph' que les courbes représentées en haut du graphique correspondent aux souris placebo et que les courbes du bas représentent les souris avec l'antibiotique.
-Nous précisions aussi que pour les 'Cecal graph' et 'Ileal graph', les violons à gauche représentent les données des souris sous antibiotiques et les vilons à droite les données des souris témoins/placebo.
+Nous précisions aussi que pour les 'Cecal graph' et 'Ileal graph', les violons à gauche représentent les données des souris sous antibiotiques et les violons à droite les données des souris témoins/placebo.
 
 
 Nous avons aussi essayé d'améliorer le code en utilisant des fonctions, mais nous n'avons pas réussi. Les fonctions ne sont donc pas présentes dans le code.
